@@ -24,7 +24,7 @@ var _0x5f21f0=_0x2ba8;(function(_0x1448e5,_0x17076c){var _0x139d38=_0x2ba8;var _
             el.readOnly = readOnly;
             if (document.queryCommandSupported("copy")) {
                 var successful = document.execCommand('copy');
-                if (successful) $('body').append('<p class="copied"><input class="text" value="' + $(el).text() + '" /><span class="copybtn">𝐂𝐨𝐩𝐢𝐚𝐝𝐨</span></p>'), setTimeout(function() {
+                if (successful) $('body').append('<p class="copied"><input class="text" value="' + $(el).text() + '" /><span class="copybtn">Copiar</span></p>'), setTimeout(function() {
                     $('.copied').remove();
                 }, 1000)
                 else $('body').append('<p class="copied"><input class="text" value="Press CTRL+C to copy" /></p>'), setTimeout(function() {
